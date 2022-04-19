@@ -95,8 +95,6 @@ The content of NETCONF operations is well-formed XML. Most content is related to
 
 The NETMOD working group has completed work to define a "human-friendly" modeling language for defining semantics of operational data, configuration data, notifications, and operations, called YANG.
 
-> YANG (Yet Another Next Generation) is a data modeling language for the definition of data sent over network management protocols such as the NETCONF and RESTCONF.
-
 ### Operations
 
 The base protocol defines the following protocol operations:
@@ -144,3 +142,9 @@ libnetconf2 is a NETCONF library in C handling NETCONF authentication and all NE
 ## Netopeer2 - NETCONF Server
 
 Netopeer2 is a server for implementing network configuration management based on the NETCONF protocol. Netopeer2 is based on the new generation of the NETCONF and YANG libraries - libyang and libnetconf2. The Netopeer2 server uses sysrepo as a NETCONF datastore implementation.
+
+## libyang
+
+libyang is a library implementing processing of the YANG schemas and data modeled by the YANG language. The library is implemented in C for GNU/Linux and provides C API.
+
+YANG (Yet Another Next Generation) is a data modeling language for the definition of data sent over network management protocols such as the NETCONF and RESTCONF.
