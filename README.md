@@ -38,10 +38,7 @@
 
 - [NETCONF (wiki)](https://en.wikipedia.org/wiki/NETCONF)
 - [libnetconf2 (documentation)](https://netopeer.liberouter.org/doc/libnetconf2/master/html/)
-
-### NETOPEER2
-
-- [netopeer2 (github)](https://github.com/CESNET/netopeer2)
+- - [netopeer2 (github)](https://github.com/CESNET/netopeer2)
 
 ### SYSREPO
 

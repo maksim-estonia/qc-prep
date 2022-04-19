@@ -127,3 +127,17 @@ The NETCONF messages layer provides a simple, transport-independent framing mech
 - NETCONF Protocol over Secure Shell (SHH)
 - NETCONF Protocol over Transport Layer Security (TLS)
 
+## libnetconf2
+
+[Link](https://netopeer.liberouter.org/doc/libnetconf2/master/html/)
+
+libnetconf2 is a NETCONF library in C handling NETCONF authentication and all NETCONF RPC communication both server and client-side. 
+
+### Main Features
+
+- Creating SSH, using libssh; or TLS, using OpenSSL
+- Creating NETCONF sessions with a pre-established transport protocol
+- Creating NETCONF Call Home sessions
+- Creating, sending, receiving, and replying to RPCs
+- Creating, sending and receiving NETCONF event notifications
+
