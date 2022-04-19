@@ -37,16 +37,13 @@
 ### NETCONF
 
 - [NETCONF (wiki)](https://en.wikipedia.org/wiki/NETCONF)
-- [libnetconf2 (documentation)](https://netopeer.liberouter.org/doc/libnetconf2/master/html/)
-- - [netopeer2 (github)](https://github.com/CESNET/netopeer2)
 
-### SYSREPO
+- [netopeer2 (github)](https://github.com/CESNET/netopeer2)
+  - [libnetconf2 (documentation)](https://netopeer.liberouter.org/doc/libnetconf2/master/html/)
+  - [libyang (documentation)](https://netopeer.liberouter.org/doc/libyang/master/html/)
+  - [sysrepo (documentation)](https://netopeer.liberouter.org/doc/sysrepo/master/html/)
+    - [sysrepo: plugins](https://www.sysrepo.org/plugins/documentation/)
 
-- [sysrepo (documentation)](https://netopeer.liberouter.org/doc/sysrepo/master/html/)
-- [sysrepo: plugins](https://www.sysrepo.org/plugins/documentation)
 
-### Other
-
-- [libyang (documentation)](https://netopeer.liberouter.org/doc/libyang/master/html/)
 
 

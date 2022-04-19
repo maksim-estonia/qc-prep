@@ -141,3 +141,6 @@ libnetconf2 is a NETCONF library in C handling NETCONF authentication and all NE
 - Creating, sending, receiving, and replying to RPCs
 - Creating, sending and receiving NETCONF event notifications
 
+## Netopeer2 - NETCONF Server
+
+Netopeer2 is a server for implementing network configuration management based on the NETCONF protocol. Netopeer2 is based on the new generation of the NETCONF and YANG libraries - libyang and libnetconf2. The Netopeer2 server uses sysrepo as a NETCONF datastore implementation.
