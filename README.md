@@ -44,6 +44,13 @@
   - [sysrepo (documentation)](https://netopeer.liberouter.org/doc/sysrepo/master/html/)
     - [sysrepo: plugins](https://www.sysrepo.org/plugins/documentation/)
 
+## Other
 
+- [Blog about netconf](https://www.linkedin.com/pulse/yet-another-blog-using-netconf-syed-hassan/)
+- [Router (wiki)](https://en.wikipedia.org/wiki/Router_(computing))
+  - [Core router](https://en.wikipedia.org/wiki/Core_router)
+- [Managing Home Routers with NETCONF over TLS and NETCONF Call Home (paper)](https://arxiv.org/pdf/2112.14612.pdf)
 
-
+Books:
+- [Network Functions Virtualization](https://www.amazon.com/Network-Functions-Virtualization-NFV-Touch/dp/0134463056)
+- [Software Defined Networks](https://www.amazon.com/Software-Defined-Networks-Comprehensive-Approach/dp/0128045558/ref=pd_bxgy_img_sccl_1/142-4956607-4253145?pd_rd_w=Ubv1E&pf_rd_p=6b3eefea-7b16-43e9-bc45-2e332cbf99da&pf_rd_r=D1Y3QDY290K2G9VNKBTQ&pd_rd_r=c1c0e5b1-ab3d-4dc2-9299-52210795c402&pd_rd_wg=p9bs1&pd_rd_i=0128045558&psc=1)
