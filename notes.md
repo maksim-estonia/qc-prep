@@ -148,3 +148,14 @@ Netopeer2 is a server for implementing network configuration management based on
 libyang is a library implementing processing of the YANG schemas and data modeled by the YANG language. The library is implemented in C for GNU/Linux and provides C API.
 
 YANG (Yet Another Next Generation) is a data modeling language for the definition of data sent over network management protocols such as the NETCONF and RESTCONF.
+
+## sysrepo
+
+[Link](https://netopeer.liberouter.org/doc/sysrepo/master/html/)
+
+Sysrepo is a YANG-based datastore for Unix/Linux systems. Applications that have their configuration modelled using YANG can use Sysrepo for its management.
+
+### Main features
+
+Main Sysrepo features are manipulation with YANG data and subscribing to various events. However, before any operation can be performed, a connection and session needs to be created and all the supported YANG schemas installed. Sysrepo can also keep records of its behaviour if logging is configured. Finally, despite being only a library, there are a few auxiliary utilities that use the API in some common ways.
+
