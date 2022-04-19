@@ -30,14 +30,14 @@
 - [o-ran.org](https://www.o-ran.org/)
 - [Open RAN (O-RAN) Architecture and RAN Intelligent Controller (RIC) (youtube)](https://www.youtube.com/watch?v=puqHsxRemI4)
 
+### NMS
+
+- [NMS: Network Management System (pdf)](https://www.usi.edu/business/aforough/Chapter%2020.pdf)
+
 ### NETCONF
 
 - [NETCONF (wiki)](https://en.wikipedia.org/wiki/NETCONF)
 - [libnetconf2 (documentation)](https://netopeer.liberouter.org/doc/libnetconf2/master/html/)
-
-### NMS
-
-- [SNMP: Simple Network Management Protocol (wiki)](https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol)
 
 ### NETOPEER2
 
