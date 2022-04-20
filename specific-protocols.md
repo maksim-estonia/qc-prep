@@ -1,4 +1,23 @@
-# Notes
+# Specific protocols
+
+- [Specific protocols](#specific-protocols)
+  - [Open RAN explained (Nokia)](#open-ran-explained-nokia)
+    - [Advantages of Open RAN](#advantages-of-open-ran)
+    - [CloudRAN (vRAN - Virtualized Radio Access Network)](#cloudran-vran---virtualized-radio-access-network)
+  - [Open RAN (Ericsson)](#open-ran-ericsson)
+  - [Network Management System (pdf)](#network-management-system-pdf)
+    - [Network Management Requirements](#network-management-requirements)
+    - [Network Management Systems](#network-management-systems)
+  - [NETCONF](#netconf)
+    - [Operations](#operations)
+    - [Messages](#messages)
+    - [Transport](#transport)
+  - [Netopeer2 - NETCONF Server](#netopeer2---netconf-server)
+  - [libnetconf2](#libnetconf2)
+    - [Main Features](#main-features)
+  - [libyang](#libyang)
+  - [sysrepo](#sysrepo)
+    - [Main features](#main-features-1)
 
 ## Open RAN explained (Nokia)
 
@@ -125,6 +144,10 @@ The NETCONF messages layer provides a simple, transport-independent framing mech
 - NETCONF Protocol over Secure Shell (SHH)
 - NETCONF Protocol over Transport Layer Security (TLS)
 
+## Netopeer2 - NETCONF Server
+
+Netopeer2 is a server for implementing network configuration management based on the NETCONF protocol. Netopeer2 is based on the new generation of the NETCONF and YANG libraries - libyang and libnetconf2. The Netopeer2 server uses sysrepo as a NETCONF datastore implementation.
+
 ## libnetconf2
 
 [Link](https://netopeer.liberouter.org/doc/libnetconf2/master/html/)
@@ -138,10 +161,6 @@ libnetconf2 is a NETCONF library in C handling NETCONF authentication and all NE
 - Creating NETCONF Call Home sessions
 - Creating, sending, receiving, and replying to RPCs
 - Creating, sending and receiving NETCONF event notifications
-
-## Netopeer2 - NETCONF Server
-
-Netopeer2 is a server for implementing network configuration management based on the NETCONF protocol. Netopeer2 is based on the new generation of the NETCONF and YANG libraries - libyang and libnetconf2. The Netopeer2 server uses sysrepo as a NETCONF datastore implementation.
 
 ## libyang
 

@@ -42,7 +42,7 @@
   - [libnetconf2 (documentation)](https://netopeer.liberouter.org/doc/libnetconf2/master/html/)
   - [libyang (documentation)](https://netopeer.liberouter.org/doc/libyang/master/html/)
   - [sysrepo (documentation)](https://netopeer.liberouter.org/doc/sysrepo/master/html/)
-    - [sysrepo: plugins](https://www.sysrepo.org/plugins/documentation/)
+  - [sysrepo: plugins](https://www.sysrepo.org/plugins/documentation/)
 
 ## Other
 
