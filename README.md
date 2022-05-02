@@ -56,3 +56,7 @@
 Books:
 - [Network Functions Virtualization](https://www.amazon.com/Network-Functions-Virtualization-NFV-Touch/dp/0134463056)
 - [Software Defined Networks](https://www.amazon.com/Software-Defined-Networks-Comprehensive-Approach/dp/0128045558/ref=pd_bxgy_img_sccl_1/142-4956607-4253145?pd_rd_w=Ubv1E&pf_rd_p=6b3eefea-7b16-43e9-bc45-2e332cbf99da&pf_rd_r=D1Y3QDY290K2G9VNKBTQ&pd_rd_r=c1c0e5b1-ab3d-4dc2-9299-52210795c402&pd_rd_wg=p9bs1&pd_rd_i=0128045558&psc=1)
+
+## Qualcomm dev environment
+
+[qc-dev-env-study.md](qc-dev-env-study.md)
