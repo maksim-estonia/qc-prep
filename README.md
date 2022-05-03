@@ -73,3 +73,5 @@ This document collects all the different frameworks/technologies/concepts used i
 [Exercise 2: Netopeer2 + Sysrepo](exercise-2-netopeer2-sysrepo.md)
 
 [Exercise 3: Sysrepo](exercise-3-sysrepo.md)
+
+[Exercise 4: Docker setup](exercise-4-docker-setup.md)
