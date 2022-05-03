@@ -58,7 +58,9 @@ This document collects all the different frameworks/technologies/concepts used i
 
 > Netopeer2 is a server implementing network configuration management based on the NETCONF protocol. Is based on the NETCONF and YANG libraries - [libnetconf2](https://github.com/CESNET/libnetconf2) and [libyang](https://github.com/CESNET/libyang). Uses [sysrepo](https://github.com/sysrepo/sysrepo) as a NETCONF datastore implementation. 
 
-[Setup Netopeer2](intro-netopeer2.md)
+[Source](https://github.com/CESNET/netopeer2)
+
+[Intro Netopeer2](intro-netopeer2.md)
 
 ## Sysrepo
 
@@ -66,7 +68,7 @@ This document collects all the different frameworks/technologies/concepts used i
 
 > Sysrepo is a YANG-based datastore for Unix/Linux systems. Applications that have their configuration modelled using YANG can use Sysrepo for its management.
 
-[Introduction Sysrepo](intro-sysrepo.md)
+[Intro Sysrepo](intro-sysrepo.md)
 
 [Exercise 2: Netopeer2 + Sysrepo](exercise-2-netopeer2-sysrepo.md)
 
