@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dsrl:maps xmlns:dsrl="http://purl.oclc.org/dsdl/dsrl" xmlns:if="http://ultraconfig.com.au/ns/yang/ultraconfig-interfaces" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0"><dsrl:element-map><dsrl:parent>/nc:data/if:interfaces/if:interface</dsrl:parent><dsrl:name>if:enabled</dsrl:name><dsrl:default-content>false</dsrl:default-content></dsrl:element-map></dsrl:maps>
