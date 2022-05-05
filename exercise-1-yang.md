@@ -4,6 +4,17 @@ Source:
     - [Youtube](https://www.youtube.com/watch?v=zy9QA-uU0u4)
     - [Blog](https://ultraconfig.com.au/blog/learn-yang-full-tutorial-for-beginners/)
 
+
+### Install pyang dependencies
+sudo apt-get install -y xsltproc libxml2-utils
+
+### Clone the pyang repo
+git clone https://github.com/mbj4668/pyang
+
+### Install pyang
+cd pyang
+sudo python3 setup.py install
+
 ## Module
 
 At the top of the file, we'll add a "module" statement followed by the name of our module and a braces block. The module name must match the name of our file.
@@ -95,3 +106,32 @@ list interface-state {
 Looking at the state data you'll notice that one key difference is the "config" statement which is set to false. This indicates that the child nodes belonging to the list are read-only.
 
 That concludes the construction of our YANG module for an instance. We may now proceed to interact with the module using pyang.
+
+
+
+- To do basic validation
+
+```bash
+pyang ultraconfig-interfaces.yang
+```
+
+- view the schema tree of your YANG module
+
+```bash
+pyang -f tree ultraconfig-interfaces.yang
+```
+
+- generate the DSDL schemas of our YANG module and validate our data instance
+
+```bash
+yang2dsdl -v data.xml ultraconfig-interfaces.yang
+```
+
+References
+
+- [YangModels/yang](https://github.com/YangModels/yang)
+- [OpenConfig YANG Modules](https://github.com/openconfig/public)
+- [pyang github](https://github.com/mbj4668/pyang)
+  - [yang2dsdl](https://github.com/mbj4668/pyang/blob/master/bin/yang2dsdl)
+- [json2xml](https://github.com/vinitkumar/json2xml)
+- [yang-explorer](https://github.com/CiscoDevNet/yang-explorer)
