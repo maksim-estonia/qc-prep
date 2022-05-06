@@ -52,6 +52,14 @@ This document collects all the different frameworks/technologies/concepts used i
 
 [Exercise 1: yang](exercise-1-yang.md)
 
+## Sysrepo
+
+![images/tech-stack-4.png](images/tech-stack-4.png)
+
+> Sysrepo is a YANG-based datastore for Unix/Linux systems. Applications that have their configuration modelled using YANG can use Sysrepo for its management.
+
+[Intro Sysrepo](intro-sysrepo.md)
+
 ## Netopeer2
 
 ![images/tech-stack-3.png](images/tech-stack-3.png)
@@ -62,13 +70,7 @@ This document collects all the different frameworks/technologies/concepts used i
 
 [Intro Netopeer2](intro-netopeer2.md)
 
-## Sysrepo
-
-![images/tech-stack-4.png](images/tech-stack-4.png)
-
-> Sysrepo is a YANG-based datastore for Unix/Linux systems. Applications that have their configuration modelled using YANG can use Sysrepo for its management.
-
-[Intro Sysrepo](intro-sysrepo.md)
+## Exercises
 
 [Exercise 2: Netopeer2 + Sysrepo](exercise-2-netopeer2-sysrepo.md)
 
