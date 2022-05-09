@@ -12,10 +12,16 @@
       - [libnetconf2](#libnetconf2)
       - [netopeer2](#netopeer2-1)
     - [Testing the build](#testing-the-build)
-  - [Exercises](#exercises)
-    - [NETCONF session](#netconf-session)
-    - [Oven plugin](#oven-plugin)
-    - [Call home](#call-home)
+  - [NETCONF session](#netconf-session)
+    - [Exchanging Initialization Tag Elements](#exchanging-initialization-tag-elements)
+    - [Sending an Operational Request](#sending-an-operational-request)
+    - [Locking the Configuration](#locking-the-configuration)
+    - [Changing the Configuration](#changing-the-configuration)
+    - [Committing the Configuration](#committing-the-configuration)
+    - [Unlocking the Configuration](#unlocking-the-configuration)
+    - [Closing the NETCONF session](#closing-the-netconf-session)
+  - [Exercise: Oven plugin](#exercise-oven-plugin)
+  - [Call home](#call-home)
 
 ## Setup
 
@@ -159,16 +165,29 @@ sudo sysctl fs.protected_regular=0
 
 ### Testing the build
 
-## Exercises
+## NETCONF session 
 
-### NETCONF session 
+- [Source 1](https://www.juniper.net/documentation/us/en/software/junos/netconf/topics/task/netconf-session-sample.html)
+- [Source 2](Qualcomm test environment.docx)
 
-[exercise-2.1-netconf-session.md](exercise-2.1-netconf-session.md)
+### Exchanging Initialization Tag Elements
 
-### Oven plugin
+### Sending an Operational Request
 
-[exercise-2.2-oven-plugin.md](exercise-2.2-oven-plugin.md)
+### Locking the Configuration
 
-### Call home
+### Changing the Configuration
 
-[exercise-2.3-call-home.md](exercise-2.3-call-home.md)
+### Committing the Configuration
+
+### Unlocking the Configuration
+
+### Closing the NETCONF session
+
+## Exercise: Oven plugin
+
+[exercise-2.2-oven-plugin.md](exercise-2-oven-plugin.md)
+
+## Call home
+
+[Source](https://www.blog.adva.com/en/its-time-to-call-home)
