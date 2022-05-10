@@ -69,12 +69,10 @@ This document collects all the different frameworks/technologies/concepts used i
 [Source](https://github.com/CESNET/netopeer2)
 
 - [Intro Netopeer2](intro-netopeer2.md)
-  - Exercise 2.1: NETCONF
-  - Exercise 2.2: Oven plugin
-  - Exercise 2.3: Call home
+  - [Exercise 2: Oven plugin](exercise-2-oven-plugin.md)
 
-## Exercises
+## Random stuff
 
-[Exercise 3: Sysrepo](exercise-3-sysrepo.md)
+[Sysrepo: developer guide](sysrepo-developer-guide.md)
 
-[Exercise 4: Docker setup](exercise-4-docker-setup.md)
+[Exercise 3: Docker setup](exercise-3-docker-setup.md)

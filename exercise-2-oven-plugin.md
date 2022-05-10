@@ -3,30 +3,6 @@
 - [Source 1](https://netopeer.liberouter.org/doc/sysrepo/master/html/example.html)
 - [Source 2](Qualcomm test environment.docx)
 
-## Plugin Example
-
-This page includes a guide on how to write a simple YANG module and then get Sysrepo to handle its data either as a plugin or a stand-alone daemon. 
-
-### Simple YANG module
-
-### Oven Plugin
-
-#### Initialization
-
-In the initialization function you must generally initialize the device and create subscriptions to any relevant YANG nodes.
-
-#### Cleanup
-
-#### Configuration Data
-
-#### State Data
-
-#### RPC Subscriptions
-
-#### Notifications
-
-#### Trying it out
-
 1. Setting up the oven plugin
 
     As root, command:
@@ -204,6 +180,4 @@ with
 ```
 
 ![remove-rpc](images/ex-2-oven-plugin/remove-rpc.png)
-
-#### Oven daemon
 
