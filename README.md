@@ -76,3 +76,41 @@ This document collects all the different frameworks/technologies/concepts used i
 [Sysrepo: developer guide](sysrepo-developer-guide.md)
 
 [Exercise 3: Docker setup](exercise-3-docker-setup.md)
+
+[Computer Networking: A Top-Down Approach](https://www.ucg.ac.me/skladiste/blog_44233/objava_64433/fajlovi/Computer%20Networking%20_%20A%20Top%20Down%20Approach,%207th,%20converted.pdf)
+
+[CESNET/libyang-cpp/tests](https://github.com/CESNET/libyang-cpp/tree/master/tests)
+
+## Frameworks/code/notes
+
+- [libyang](https://github.com/CESNET/libyang)
+  - [libyang-cpp](https://github.com/CESNET/libyang-cpp/) - C++ bindings for the libyang library
+  - [yang2-rs](https://github.com/rwestphal/yang2-rs/) - Rust bindings for the libyang2 library
+- [sysrepo](https://github.com/sysrepo/sysrepo) - storing and managing YANG-based configurations for Linux applications
+- [netopeer2](https://github.com/CESNET/netopeer2) - NETCONF toolset
+- [libnetconf2](https://github.com/CESNET/libnetconf2) - C NETCONF library
+- testing
+  - [cmocka](https://cmocka.org/) - C unit testing framework
+  - [doctest](https://github.com/doctest/doctest): fast C++ 11/14/17/20 testing framework
+  - [valgrind](https://valgrind.org/)
+- docker
+  - [Docker image with Sysrepo & Netopeer2 setup](https://hub.docker.com/r/sysrepo/sysrepo-netopeer2)
+- XML
+  - [XML introduction](https://www.w3schools.com/xml/xml_whatis.asp)
+  - [XPath](https://www.w3schools.com/xml/xml_xpath.asp)
+
+## Links
+
+- [Youtube: Internet of Things system management using NETCONF and YANG ](https://www.youtube.com/watch?v=HNsbtHn9xYo)
+- netdevops.me
+  - [Network automation options in Go with scrapligo](https://netdevops.me/2021/network-automation-options-in-go-with-scrapligo/)
+    - [scrapli_netconf](https://github.com/scrapli/scrapli_netconf) - Python netconf client for network devices
+  - [Netconf console in a docker container](https://netdevops.me/2020/netconf-console-in-a-docker-container/)
+  - [NETCONF subtree filtering by example](https://netdevops.me/2020/netconf-subtree-filtering-by-example/)
+  - [Nokia YANG tree and Path browser](https://netdevops.me/nokia-yang-tree/)
+  - [Getting XML data sample for a given lead in a YANG model](https://netdevops.me/2020/getting-xml-data-sample-for-a-given-leaf-in-a-yang-model/)
+- books
+  - [Network Programmability with YANG](https://www.amazon.com/Network-Programmability-YANG-Modeling-driven-Management/dp/0135180392)
+- docker 
+  - [YT: Learn Docker in 12 Minutes](https://www.youtube.com/watch?v=YFl2mCHdv24)
+  - [YT: Docker Compose in 12 minutes](https://www.youtube.com/watch?v=Qw9zlE3t8Ko)
