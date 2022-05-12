@@ -76,8 +76,9 @@ This document collects all the different frameworks/technologies/concepts used i
 - Docker
   - [YT: Learn Docker in 12 Minutes](https://www.youtube.com/watch?v=YFl2mCHdv24)
   - [YT: Docker Compose in 12 minutes](https://www.youtube.com/watch?v=Qw9zlE3t8Ko)
-  - [Github](https://github.com/maksim-estonia/docker-tutorial)
-    - [Docker image with Sysrepo & Netopeer2 setup](https://hub.docker.com/r/sysrepo/sysrepo-netopeer2)
+    - [Github](https://github.com/maksim-estonia/docker-tutorial)
+  - [Docker image with Sysrepo & Netopeer2 setup](https://hub.docker.com/r/sysrepo/sysrepo-netopeer2)
+    - [Github](https://github.com/maksim-estonia/netopeer2-docker-setup)
 - Youtube
   - [Internet of Things system management using NETCONF and YANG ](https://www.youtube.com/watch?v=HNsbtHn9xYo)
 - Blogs
